@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">                   <!--- indica que los caracteres se escriben en latino-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--indica la compatibilidad con el navegador en este caso el explorer-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--incica que debe adapterse la pagina en dispositivos moviles lo cual no es garantia que dncione -->
-    <title>Matcha</title>
+  <meta charset="UTF-8">
+  <!--- indica que los caracteres se escriben en latino-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--indica la compatibilidad con el navegador en este caso el explorer-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--incica que debe adapterse la pagina en dispositivos moviles lo cual no es garantia que dncione -->
+  <title>Matcha</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet"><!-- aqui va la fuente importada de google-->
 
 </head>
+
 <body>
-    <h1>Build your. Build business</h1>
-    <p> Instantly publish articles, drive more traffic, grow your email list, and see your blog's
-        impact on sales  
-    </p>
-    <form>
+  <header class="header">
+    <!-- Regresar página principal -->
+    <a href="/" class="logo">
+      <!--para referenciar a otra pagina-->
+      <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
+    </a>
+    <!-- Menú -->
+    <nav class="navbar">
+      <ul>
+        <li>Platform</li>
+        <li>Pricing</li>
+        <li>Customers</li>
+        <li>Resources</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <!-- Acciones -->
+    <div class="actions">
+      <a href="">Sign In</a>
+      <button > free trial</button>
+    </div>
+
+    <section class="main">
+      <h1>Build your. Build business</h1>
+      <p> Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+        impact on sales
+      </p>
+      <form>
         <input type="email" />
         <button type="submit">
           Try it now &rarr;
         </button>
       </form>
-      <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="logo">
-    <p> Instantly publish articles, drive more traffic, <strong>grow your email list</strong>, and see your blog's
-            impact on sales</p>
+      <!--img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="logo"-->
+      <p> Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sales</p>
+
+      <p>
+        Start publishing today with a <strong>7-day trial.</strong>
+      </p>
+      <p>
+        <strong>No credit card</strong> required.
+      </p>
+      <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Imagen capterra">
+    </section>
 </body>
+
 </html>
