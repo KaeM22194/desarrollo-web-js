@@ -144,5 +144,5 @@ iframe {
 }
 .features{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template: repeat(2,330px)/repeat(2,1fr);
 }
